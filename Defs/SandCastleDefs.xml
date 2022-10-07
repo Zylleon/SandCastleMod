@@ -13,7 +13,7 @@
 	<JoyGiverDef>
     <defName>SCM_BuildSandCastle</defName>
     <giverClass>SandCastleMod.JoyGiver_BuildSandCastle</giverClass>
-    <baseChance>0.75</baseChance>
+    <baseChance>0.85</baseChance>
     <jobDef>SCM_BuildSandCastle</jobDef>
     <joyKind>Meditative</joyKind>
     <requiredCapacities>

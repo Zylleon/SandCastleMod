@@ -1,0 +1,12 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ZSandCastle\Source\SandCastleMod\obj\Debug\SandCastleMod.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ZSandCastle\Source\SandCastleMod\obj\Debug\SandCastleMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ZSandCastle\Assemblies\SandCastleMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ZSandCastle\Source\SandCastleMod\obj\Debug\SandCastleMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.1\Source\SandCastleMod\obj\Debug\SandCastleMod.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.1\Source\SandCastleMod\obj\Debug\SandCastleMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.1\Source\SandCastleMod\obj\Debug\SandCastleMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.1\Assemblies\SandCastleMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.3\Assemblies\SandCastleMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.3\Source\SandCastleMod\obj\Debug\SandCastleMod.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.3\Source\SandCastleMod\obj\Debug\SandCastleMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Z_SandCastleMod\1.3\Source\SandCastleMod\obj\Debug\SandCastleMod.dll
