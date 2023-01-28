@@ -80,7 +80,6 @@
       <expandHomeArea>false</expandHomeArea>
       <repairable>false</repairable>
       <isInert>true</isInert>
-      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
     </building>
   </ThingDef>
 
