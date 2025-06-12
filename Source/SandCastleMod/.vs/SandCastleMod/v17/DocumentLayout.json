@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBD62F3-C845-41D3-B859-48D808E15579}|SandCastleMod.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\z_sandcastlemod\\source\\sandcastlemod\\jobdriver_buildsandcastle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBD62F3-C845-41D3-B859-48D808E15579}|SandCastleMod.csproj|solutionrelative:jobdriver_buildsandcastle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SandCastleMod||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBD62F3-C845-41D3-B859-48D808E15579}|SandCastleMod.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\z_sandcastlemod\\source\\sandcastlemod\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobDriver_BuildSandCastle.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\JobDriver_BuildSandCastle.cs",
+              "RelativeDocumentMoniker": "JobDriver_BuildSandCastle.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\JobDriver_BuildSandCastle.cs",
+              "RelativeToolTip": "JobDriver_BuildSandCastle.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T00:17:02.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SandCastleMod",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\SandCastleMod.csproj",
+              "RelativeDocumentMoniker": "SandCastleMod.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\SandCastleMod.csproj",
+              "RelativeToolTip": "SandCastleMod.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-12T00:16:38.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "dc44e7a5-470a-4a03-b555-b272462cbc99",
+        "Display": 1,
+        "X": 194,
+        "Y": 136,
+        "Width": 1568,
+        "Height": 793,
+        "WindowState": 0
+      },
+      "DocumentGroups": []
+    }
+  ]
+}
