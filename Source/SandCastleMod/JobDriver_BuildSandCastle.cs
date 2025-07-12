@@ -21,36 +21,39 @@ namespace SandCastleMod
             return pawn.Reserve(targetA, job, 1, -1, null, errorOnFailed);
         }
 
-        [DebuggerHidden]
         protected override IEnumerable<Toil> MakeNewToils()
         {
             yield return Toils_Goto.GotoCell(TargetIndex.A, PathEndMode.Touch);
-            Toil doWork = new Toil();
+            Toil doWork = ToilMaker.MakeToil("MakeNewToils");
             doWork.initAction = delegate
             {
-                this.workLeft = 2300f;
+                workLeft = 2300f;
             };
-            doWork.tickAction = delegate
+            doWork.tickIntervalAction = delegate (int delta)
             {
-                this.workLeft -= 2f * doWork.actor.GetStatValue(StatDefOf.ConstructionSpeed, true);
-                if (this.workLeft <= 0f)
-				{
+                workLeft -= doWork.actor.GetStatValue(StatDefOf.ConstructionSpeed) * 2f * (float)delta;
+                if (workLeft <= 0f)
+                {
                     Thing thing = ThingMaker.MakeThing(SandCastleDefOf.SCM_SandCastle, null);
-                    if(pawn.Faction.IsPlayer)
+                    if (pawn.Faction.IsPlayer)
                     {
                         thing.SetFaction(Faction.OfPlayer, null);
                     }
-                    GenSpawn.Spawn(thing, this.TargetLocA, this.Map, WipeMode.Vanish);
-                    this.ReadyForNextToil();
-                    return;
+                    GenSpawn.Spawn(thing, base.TargetLocA, base.Map);
+                    ReadyForNextToil();
                 }
-                JoyUtility.JoyTickCheckEnd(this.pawn);
+                else
+                {
+                    JoyUtility.JoyTickCheckEnd(pawn, delta);
+                }
             };
             doWork.defaultCompleteMode = ToilCompleteMode.Never;
-            doWork.FailOn(() => !JoyUtility.EnjoyableOutsideNow(this.pawn, null));
+            doWork.FailOn(() => !JoyUtility.EnjoyableOutsideNow(pawn));
             doWork.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
+            doWork.activeSkill = () => SkillDefOf.Construction;
             yield return doWork;
         }
+
 
         public override void ExposeData()
         {
