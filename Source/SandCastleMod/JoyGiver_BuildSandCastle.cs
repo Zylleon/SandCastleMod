@@ -7,7 +7,7 @@ namespace SandCastleMod
 {
     public class JoyGiver_BuildSandCastle : JoyGiver
     {
-        private const float MinDistBetweenSandCastles = 12f;
+        private const float MinDistBetweenSandCastles = 4f;
 
         public override Job TryGiveJob(Pawn pawn)
         {
@@ -60,7 +60,11 @@ namespace SandCastleMod
             TerrainDef terrain = pawn.Map.terrainGrid.TerrainAt(c);
             if (terrain.categoryType != TerrainDef.TerrainCategoryType.Sand)
             {
-                if (!terrain.tools.Any(t => t.label == "sand"))
+                if(terrain.tools.NullOrEmpty())
+                {
+                    return false;
+                }
+                else if (!terrain.tools.Any(t => t.label == "sand"))
                 {
                     return false;
                 }

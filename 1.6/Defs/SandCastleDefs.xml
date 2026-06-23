@@ -53,8 +53,9 @@
     <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
     <useHitPoints>true</useHitPoints>
     <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/ZSCSandCastle</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
 	  <shadowData>
         <volume>(0.4, 0.2, 0.3)</volume>
         <offset>(0,0,-0.25)</offset>

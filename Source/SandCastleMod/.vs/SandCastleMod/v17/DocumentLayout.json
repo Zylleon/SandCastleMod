@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "JoyGiver_BuildSandCastle.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Z_SandCastleMod\\Source\\SandCastleMod\\JoyGiver_BuildSandCastle.cs",
               "RelativeToolTip": "JoyGiver_BuildSandCastle.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwEMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T21:30:23.89Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "RelativeToolTip": "JobDriver_BuildSandCastle.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAowEwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T00:17:02.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T00:17:02.804Z"
             },
             {
               "$type": "Document",
