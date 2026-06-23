@@ -57,9 +57,13 @@ namespace SandCastleMod
 
         private static bool IsGoodSandCastleCell(IntVec3 c, Pawn pawn)
         {
-            if (pawn.Map.terrainGrid.TerrainAt(c) != TerrainDefOf.Sand)
+            TerrainDef terrain = pawn.Map.terrainGrid.TerrainAt(c);
+            if (terrain.categoryType != TerrainDef.TerrainCategoryType.Sand)
             {
-                return false;
+                if (!terrain.tools.Any(t => t.label == "sand"))
+                {
+                    return false;
+                }
             }
             if (c.IsForbidden(pawn))
             {
