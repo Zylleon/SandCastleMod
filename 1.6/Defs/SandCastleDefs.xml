@@ -58,8 +58,9 @@
       <shaderType>CutoutComplex</shaderType>
 	  <shadowData>
         <volume>(0.4, 0.2, 0.3)</volume>
-        <offset>(0,0,-0.25)</offset>
+        <offset>(0,0,-0.2)</offset>
 		</shadowData>
+		<color>(148,132,114)</color>
     </graphicData>
     <fillPercent>0.35</fillPercent>
     <rotatable>false</rotatable>

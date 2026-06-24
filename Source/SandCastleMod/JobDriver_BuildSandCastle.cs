@@ -40,19 +40,13 @@ namespace SandCastleMod
                     {
                         thing.SetFaction(Faction.OfPlayer, null);
                     }
-                    //thing.SetColor(new Color(1, 0, 0));
 
                     TerrainDef sandType = GridsUtility.GetTerrain(base.TargetLocA, base.Map);
                     var texture = sandType.graphic?.MatSingle?.mainTexture;
-                    Color castleColor = new Color(0.578f, 0.516f, 0.445f);
-                    //Color castleColor = new Color(1f, 0, 0);
+                    Color castleColor = new Color(0.578f, 0.516f, 0.445f);      // default sand color
+
                     if (texture != null)
                     {
-                        //var renderTex = RenderTexture.GetTemporary(1, 1, 0, RenderTextureFormat.Default, RenderTextureReadWrite.Default);
-                        //var readableTex = new Texture2D(1, 1, TextureFormat.RGBA32, false);
-                        //Graphics.Blit(texture, renderTex);
-                        //var rawColor = readableTex.GetPixel(0, 0);
-
 
                         if (texture is Texture2D texture2D)
                         {
@@ -71,10 +65,11 @@ namespace SandCastleMod
                             castleColor = rawColor * sandType.graphic.color;
                         }
                     }
+
+                    castleColor /= 0.93f;
+
                     castleColor.a = 1f;
 
-
-                    //castleColor = new Color(0.578f, 0.516f, 0.445f, 1f);
 
 
                     thing.SetColor(castleColor);
